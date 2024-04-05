@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .base-layer-input {
+      @apply w-full h-full bg-transparent font-sans font-normal text-left outline outline-0 focus:outline-0 disabled:bg-blue-gray-50 disabled:border-0 transition-all border text-sm border-blue-gray-200 border-t-blue-gray-200 focus:border-t-gray-900 p-2 rounded-lg  text-blue-gray-700;
+    }
+  }
