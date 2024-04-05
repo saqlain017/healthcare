@@ -1,4 +1,4 @@
-export * from "@/features/authSlice/authslice"
+export * from "@features/authSlice/authslice"
 export * from "@/features/dashboardslice/dashboardslice"
 export * from "@/features/patientsslice/patientslice"
 export * from "@/features/doctorsslice/doctorslice"
